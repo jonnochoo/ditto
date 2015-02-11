@@ -1,0 +1,3 @@
+String name = "{{Name}}";
+String phoneNumber = "{{PhoneNumber}}";
+String email = "{{Email}}";

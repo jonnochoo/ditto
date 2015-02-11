@@ -1,0 +1,27 @@
+{
+  "name": "ditto",
+  "version": "0.0.0",
+  "description": "A command line tool using Handlebar.js to create files from CSV files",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine-node --test-dir tests",
+    "test-watch": "jasmine-node --test-dir tests --autotest --watch tests"
+  },
+  "keywords": [
+    "handlebars",
+    "template",
+    "csv"
+  ],
+  "author": "Jonathon Choo",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.0.3",
+    "commander": "^2.6.0",
+    "csv": "^0.4.1",
+    "handlebars": "^2.0.0",
+    "stream-transform": "0.0.6"
+  },
+  "devDependencies": {
+    "jasmine": "^2.1.1"
+  }
+}
