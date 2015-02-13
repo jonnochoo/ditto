@@ -12,6 +12,10 @@
     "template",
     "csv"
   ],
+  "bugs": {
+    "url": "https://github.com/jonnochoo/ditto/issues"
+  },
+  "homepage": "https://github.com/jonnochoo/ditto",
   "author": "Jonathon Choo",
   "license": "MIT",
   "dependencies": {
