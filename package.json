@@ -1,6 +1,6 @@
 {
-  "name": "ditto",
-  "version": "0.0.0",
+  "name": "ditto-cli",
+  "version": "0.0.1",
   "description": "A command line tool using Handlebar.js to create files from CSV files",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,9 @@
     "template",
     "csv"
   ],
+  "bin": { 
+    "ditto": "bin/ditto.js"
+  },
   "bugs": {
     "url": "https://github.com/jonnochoo/ditto/issues"
   },
